@@ -1,0 +1,22 @@
+body{
+    background: lightseagreen;
+    text-align:center;
+    color: #544E61;
+}
+
+:root {
+    --spacing:10px;
+    --blur:10px;
+    --base:#6E8894;
+}
+
+img {
+    margin-top:30px;
+    padding: var(--spacing);
+    filter: blur(var(--blur));
+    background: var(--base);
+}
+
+.hl {
+    color: var(--base);
+}
